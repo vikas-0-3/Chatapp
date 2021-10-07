@@ -1,0 +1,49 @@
+.col-theme {
+  color: var(--themeColor);
+}
+
+#leftscrolldiv {
+  height: 92vh;
+  overflow-y: auto;
+}
+
+#chatcontainer {
+  height: 86.9vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+ 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--themeColor); 
+  border-radius: 10px;
+}
+
+.usercard {
+  border-radius: 50px;
+  box-shadow: 0 0 3px 0 grey;
+}
+
+.chatbubble {
+  border-radius: 20px;
+  box-shadow: 0 0 3px 0 grey;
+  width: 51%;
+}
+
+.chatbubble-right {
+  background-color: var(--themeColor);
+  float: right;
+}
+
+.chatbubble-center {
+  border-radius: 0%;
+  box-shadow: 0 0 3px 0 white;
+  width: 100%;
+  color: var(--themeColor);
+}
+
+i {
+  cursor: pointer;
+}
